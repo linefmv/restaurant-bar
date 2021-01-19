@@ -29,7 +29,6 @@ nav > ul li a {
     padding: 10px 67px;
     color: #FFFFFF;
     text-decoration: none;
-
 }
 
 /* Elementos com o ID "titulo" */
@@ -49,6 +48,11 @@ input, select, textarea, button {
     font-size: 1em;
     color: #4a9930;
     border-radius: 5px;
+}
+
+input {
+    font-size: 29px;
+    height: 0.7em;
 }
 
 /* Elementos de classe "grupo" nos estados das pseudoclasses "before" e "after" */
@@ -85,10 +89,10 @@ fieldset.grupo .campo{
     margin-top: 2%;
 }
 
-textarea{
+textarea {
     resize: none;
-    width: 28em;
-    height: 6em;
+    width: 35em;
+    height: 4em;
 }
 /* Elementos de classe "campo" das tags <input> com atributo text e email, da tag <select> e da tag <textarea>*/
 .campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
