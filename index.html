@@ -1,16 +1,13 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <!--linguagem unicod-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" media="screen">
-    <link rel="stylesheet" href="cardapio.html">
     <title> Nenas food </title>
-
 </head>
-
 <body>
     <header>
         <img src="assets/bannere.png"
@@ -18,21 +15,21 @@
     </header>
     <nav>
         <ul>
-            <li><a href="pages/menu/cardapio.html"> Cardápio</a> </li>
-            <li><a href="pages/pratododia/pratododia.html"> Prato do dia</a></li>
-            <li><a href="./pages/sale/desconto.html"> Descontos e promoções</a></li>
+            <li><a href="./pages/menu/cardapio.html"> Menu </a></li>
+            <li><a href="./pages/pratododia/pratododia.html"> Most popular </a></li>
+            <li><a href="./pages/sale/desconto.html"> Discount for your opinion</a></li>
         </ul>
     </nav>
     <form>
-        <p id="subtitulo"> <strong> Complete suas informações para podermos anotar os pedidos</strong></p>
+        <p id="subtitulo"> <strong> We need your information to take your order </strong></p>
         <fieldset class="grupo">
             <div class="campo">
-                <label for="nome">Nome</label>
-                <input type="text" name="nome" id="nome" required>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
             </div>
             <div class="campo">
-                <label for="sobrenome">Sobrenome</label>
-                <input type="text" name="sobrenome" id="sobrenome" required>
+                <label for="lastname">Last name</label>
+                <input type="text" name="lastname" id="lastname" required>
             </div>
         </fieldset>
 
@@ -42,58 +39,71 @@
         </div>
 
         <div class="campo">
-            <label> <strong><em> O que você mais gosta de comer?</label> </strong> </em>
+            <label> <strong> Pick up for you </label> </strong>
             <!--Bolinhas para selecionar-->
             <label>
                 <input type="radio" name=nenaslanche value="pizza" checked> Pizza
             </label>
             <label>
-                <input type="radio" name=nenaslanche value="hamburguer" checked> Hambúrguer
+                <input type="radio" name=nenaslanche value="sandwiches" checked> Sandwiches
             </label>
             <label>
-                <input type="radio" name=nenaslanche value="sanduiche" checked> Sanduíche
+                <input type="radio" name=nenaslanche value="frenchfries" checked> French fries
             </label>
             <label>
-                <input type="radio" name=nenaslanche value="empada" checked> Empada Vegana
+                <input type="radio" name=nenaslanche value="veggieburger" checked> Veggie burger
+            </label>
+            <label>
+                <input type="radio" name=nenaslanche value="salad" checked> Salad
+            </label>
+            <label>
+                <input type="radio" name=nenaslanche value="omelettes" checked> Omelettes
+            </label>
+            <label>
+                <input type="radio" name=nenaslanche value="omeletteswithpancakes" checked> Omelettes with Pancakes
             </label>
         </div>
         <div class="campo">
-            <label for="doces"> <strong><em> Doces </label> </em> </strong>
+            <label for="bakery"> <strong> Bakery </label> </strong>
             <!--Caixa de seleção-->
-            <select id="doces">
-                <option selected disabled value=""> Selecione</option>
-                <option>Pizza Doce </option>
-                <option>Bolo </option>
-                <option> Salada de Fruta</option>
-                <option> Folhado de Chocolate </option>
+            <select id="bakery">
+                <option selected disabled value=""> Select </option>
+                <option> Cookie</option>
+                <option> Cake </option>
+                <option> Cheesecake </option>
+                <option> Donut </option>
+                <option> Muffin </option>
+
             </select>
         </div>
 
         <fieldset class="grupo">
             <!--Checkbox-->
             <div id="check">
-                <label id="drink"> <strong> Selecione a bebida que você deseja:</label></strong> <br>
-                <input type="checkbox" name="bebidas1" id="bebidas1" value="Coca-cola">
-                <label for="bebidas1"> Coca-cola </label>
-                <input type="checkbox" name="bebidas2" id="bebidas2" value="Cha-Verde">
-                <label for="bebidas2"> Chá verde </label>
-                <input type="checkbox" name="bebidas3" id="bebidas3" value="Cafe">
-                <label for="bebidas3"> Café </label>
-                <input type="checkbox" name="bebidas4" id="bebidas4" value="Suco natural">
-                <label for="bebidas4"> Suco natural</label>
-                <input type="checkbox" name="bebidas5" id="bebidas5" value="agua com gas">
-                <label for="bebidas5"> Água com gás </label>
-                <input type="checkbox" name="bebidas6" id="bebidas6" value="agua sem gas">
-                <label for="bebidas6"> Água sem gás </label>
-                <input type="checkbox" name="bebidas7" id="bebidas7" value="Energetico">
-                <label for="bebidas7"> Energético </label>
+                <label id="drink"> <strong> Beverage </label></strong> <br>
+                <input type="checkbox" name="beverage1" id="beverage1" value="Coca">
+                <label for="beverage1">Coca</label>
+                <input type="checkbox" name="beverage2" id="beverage2" value="icedtea">
+                <label for="beverage2"> Iced Tea </label>
+                <input type="checkbox" name="beverage3" id="beverage3" value="Coffee">
+                <label for="beverage3"> Coffee </label>
+                <input type="checkbox" name="beverage4" id="beverage4" value="orangejuice">
+                <label for="beverage4">Orange Juice</label>
+                <input type="checkbox" name="beverage5" id="beverage5" value="Water">
+                <label for="beverage5"> Water </label>
+                <input type="checkbox" name="beverage6" id="beverage6" value="hotchocolate">
+                <label for="beverage6"> Hot Chocolate </label>
+                <input type="checkbox" name="beverage7" id="beverage7" value="shotofespresso
+                ">
+                <label for="beverage7"> Shot of Espresso
+             </label>
             </div>
         </fieldset>
         <div class="campo">
-            <label for="sugestao"> <strong><em> Nos dê sugestões de pratos: </strong> </em></label>
-            <textarea row="9" id="sugestao" name="sugestao"></textarea>
+            <label for="sugestao"> <strong> Nos dê sugestões de pratos: </strong> </em></label>
+            <textarea row="6" id="sugestion" name="sugestion"></textarea>
         </div>
-        <button class="botao" type="submit" onsubmit="" required> Enviar suas respostas</button>
+        <button class="bottom" type="submit" onsubmit="" required> Send your order </button>
     </form>
 </body>
 
