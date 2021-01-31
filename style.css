@@ -35,7 +35,7 @@ nav > ul li a {
 #subtitle {
     font-family: sans-serif;
     color: #73b13a;
-    margin-left: 10%;
+    margin-left: 16%;
     margin-bottom: 2%;
 }
 
@@ -72,7 +72,7 @@ input {
 /* Aqui está o nome, sobrenome e email */
 .field label { 
     margin-bottom: 0.2em;
-    color: #268519;
+    color: #1d8b0b;
     display: block;
 }
 
@@ -93,11 +93,12 @@ textarea {
     display: flex;
     align-items: center;
     resize: none;
-    width: 35em;
+    width: 25em;
     height: 4em;
 }
+
 /* Elementos de classe "field" das tags <input> com atributo text e email, da tag <select> e da tag <textarea>*/
-.field input[type="text"], .field input[type="email"], .field input[type="tel"], .field select {
+.field input[type="text"], .field input[type="email"], .field select, .field input[type="tel"] {
     padding: 0.2em;
     border: 1px solid #4e7e4e;
     box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.2);

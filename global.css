@@ -1,0 +1,15 @@
+/* Todos os elementos da página */ 
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #36be48;
+    margin-left: 30%;
+    margin-top: 2%;
+    justify-content: center;
+}

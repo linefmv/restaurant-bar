@@ -40,7 +40,7 @@
             </div>
             <div class="field">
                 <label for="phone">Number</label>
-                <input type="tel" name="phone" id="phone" placeholder="000-00-000" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
             </div>
         </fieldset>
 
@@ -69,20 +69,6 @@
                 <input type="radio" name=nenaslanche value="omeletteswithpancakes" checked> Omelettes with Pancakes
             </label>
         </div>
-        <div class="field">
-            <label for="bakery"> <strong> Bakery </label> </strong>
-            <!--Caixa de seleção-->
-            <select id="bakery">
-                <option selected disabled value=""> Select </option>
-                <option> Cookie</option>
-                <option> Cake </option>
-                <option> Cheesecake </option>
-                <option> Donut </option>
-                <option> Muffin </option>
-
-            </select>
-        </div>
-
         <fieldset class="group">
             <!--Checkbox-->
             <div id="check">
@@ -105,6 +91,18 @@
                 </label>
             </div>
         </fieldset>
+            <div class="field">
+                <label for="bakery"> <strong> Choose your bakery bonus </label> </strong>
+                <!--Caixa de seleção-->
+                <select id="bakery">
+                    <option selected disabled value=""> Select </option>
+                    <option> Cookie</option>
+                    <option> Cake </option>
+                    <option> Cheesecake </option>
+                    <option> Donut </option>
+                    <option> Muffin </option>
+                </select>
+            </div>
         <div class="field">
             <label for="note"> <strong> Add a note </strong> </em></label>
             <textarea row="6" id="note" name="note"></textarea>
