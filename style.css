@@ -76,7 +76,7 @@ input {
     display: block;
 }
 
-fieldset.grupo .field{
+fieldset.group .field{
     float: left;
     margin-right: 1em;
 }
