@@ -97,7 +97,7 @@ textarea {
     height: 4em;
 }
 /* Elementos de classe "field" das tags <input> com atributo text e email, da tag <select> e da tag <textarea>*/
-.field input[type="text"], .field input[type="email"], .field select {
+.field input[type="text"], .field input[type="email"], .field input[type="tel"] .field select {
     padding: 0.2em;
     border: 1px solid #4e7e4e;
     box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.2);
@@ -119,7 +119,7 @@ textarea {
     padding: 0.2em 0.6em;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     position: absolute;
-    top: 140%;
+    top: 130%;
     left: 47%;
     margin-right: -50%;
     transform: translate(-50%, -50%)

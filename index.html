@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css" media="screen">
     <title> Nenas food </title>
 </head>
+
 <body>
     <header>
         <img src="assets/bannere.png"
@@ -32,12 +33,16 @@
                 <input type="text" name="lastname" id="lastname" required>
             </div>
         </fieldset>
-
-        <div class="field">
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" required>
-        </div>
-
+        <fieldset class="group">
+            <div class="field">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="field">
+                <label for="phone">Number</label>
+                <input type="tel" name="phone" id="phone" placeholder="000-00-000" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+            </div>
+        </fieldset>
         <div class="field">
             <label> <strong> Pick up for you </label> </strong>
             <!--Bolinhas para selecionar-->
@@ -96,11 +101,11 @@
                 <input type="checkbox" name="beverage7" id="beverage7" value="shotofespresso
                 ">
                 <label for="beverage7"> Shot of Espresso
-             </label>
+                </label>
             </div>
         </fieldset>
         <div class="field">
-            <label for="note"> <strong>  Add a note </strong> </em></label>
+            <label for="note"> <strong> Add a note </strong> </em></label>
             <textarea row="6" id="note" name="note"></textarea>
         </div>
         <button class="button" type="submit" onsubmit="" required> Send your order </button>
