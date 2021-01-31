@@ -21,24 +21,24 @@
         </ul>
     </nav>
     <form>
-        <p id="subtitulo"> <strong> We need your information to take your order </strong></p>
-        <fieldset class="grupo">
-            <div class="campo">
+        <p id="subtitle"> <strong> We need your information to take your order </strong></p>
+        <fieldset class="group">
+            <div class="field">
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name" required>
             </div>
-            <div class="campo">
+            <div class="field">
                 <label for="lastname">Last name</label>
                 <input type="text" name="lastname" id="lastname" required>
             </div>
         </fieldset>
 
-        <div class="campo">
+        <div class="field">
             <label for="email">Email</label>
             <input type="email" name="email" id="email" required>
         </div>
 
-        <div class="campo">
+        <div class="field">
             <label> <strong> Pick up for you </label> </strong>
             <!--Bolinhas para selecionar-->
             <label>
@@ -63,7 +63,7 @@
                 <input type="radio" name=nenaslanche value="omeletteswithpancakes" checked> Omelettes with Pancakes
             </label>
         </div>
-        <div class="campo">
+        <div class="field">
             <label for="bakery"> <strong> Bakery </label> </strong>
             <!--Caixa de seleção-->
             <select id="bakery">
@@ -77,7 +77,7 @@
             </select>
         </div>
 
-        <fieldset class="grupo">
+        <fieldset class="group">
             <!--Checkbox-->
             <div id="check">
                 <label id="drink"> <strong> Beverage </label></strong> <br>
@@ -99,11 +99,11 @@
              </label>
             </div>
         </fieldset>
-        <div class="campo">
-            <label for="sugestao"> <strong>  Add a note </strong> </em></label>
-            <textarea row="6" id="sugestion" name="sugestion"></textarea>
+        <div class="field">
+            <label for="note"> <strong>  Add a note </strong> </em></label>
+            <textarea row="6" id="note" name="note"></textarea>
         </div>
-        <button class="bottom" type="submit" onsubmit="" required> Send your order </button>
+        <button class="button" type="submit" onsubmit="" required> Send your order </button>
     </form>
 </body>
 

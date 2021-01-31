@@ -32,7 +32,7 @@ nav > ul li a {
 }
 
 /* Elementos com o ID "titulo" */
-#subtitulo {
+#subtitle {
     font-family: sans-serif;
     color: #73b13a;
     margin-left: 10%;
@@ -52,31 +52,31 @@ input, select, textarea, button {
 }
 
 input {
-    font-size: 29px;
+    font-size: 25px;
     height: 0.7em;
 }
 
 /* Elementos de classe "grupo" nos estados das pseudoclasses "before" e "after" */
-.grupo:before, .grupo:after {
+.group:before, .group:after {
     display: table;
 }
 
 /* Elementos de classe "grupo" no estado da pseudoclasse "after" */
-.grupo:after {
+.group:after {
     clear: both;
 }
 
-.campo {
+.field {
     margin-bottom: 1em;
 }
 /* Aqui está o nome, sobrenome e email */
-.campo label { 
+.field label { 
     margin-bottom: 0.2em;
     color: #268519;
     display: block;
 }
 
-fieldset.grupo .campo{
+fieldset.grupo .field{
     float: left;
     margin-right: 1em;
 }
@@ -85,7 +85,7 @@ fieldset.grupo .campo{
     display: inline-block;
     margin-bottom: 2%;
 }
-#bebidas1 {
+#beverage1 {
     margin-top: 2%;
 }
 
@@ -96,21 +96,21 @@ textarea {
     width: 35em;
     height: 4em;
 }
-/* Elementos de classe "campo" das tags <input> com atributo text e email, da tag <select> e da tag <textarea>*/
-.campo input[type="text"], .campo input[type="email"], .campo select {
+/* Elementos de classe "field" das tags <input> com atributo text e email, da tag <select> e da tag <textarea>*/
+.field input[type="text"], .field input[type="email"], .field select {
     padding: 0.2em;
     border: 1px solid #4e7e4e;
     box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.2);
     display: block;
 }
-.campo select option {
+.field select option {
     padding-right: 1em;
 }
-/* Elemento de classe "campo" com tag <input>, <select> e <textarea> tocas com estado da pseudoclasse "focus"*/
-.campo input:focus, .campo select:focus, .campo textarea:focus {
+/* Elemento de classe "field" com tag <input>, <select> e <textarea> tocas com estado da pseudoclasse "focus"*/
+.field input:focus, .field select:focus, .field textarea:focus {
     background: #fcfcfc;
 }
-.botao {
+.button {
     font-size: 1.2em;
     background: #549d42;
     border: 0;
@@ -119,20 +119,20 @@ textarea {
     padding: 0.2em 0.6em;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     position: absolute;
-    top: 120%;
+    top: 140%;
     left: 47%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
 }
 
 /* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
-.botao:hover {
+.button:hover {
     background: #bbffd5;
     box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: none;
 }
 
-.botao, select {
+.button, select {
     cursor:pointer;
 }
 
