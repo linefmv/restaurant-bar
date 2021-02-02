@@ -11,5 +11,22 @@ body {
     color: #36be48;
     margin-left: 30%;
     margin-top: 2%;
-    justify-content: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    padding: 10px 0px;
+}
+
+nav > ul li a {
+    padding: 10px 67px;
+    color: #FFFFFF;
+    text-decoration: none;
 }
