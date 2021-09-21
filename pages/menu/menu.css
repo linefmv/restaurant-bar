@@ -12,3 +12,20 @@ h2 {
     font-family:serif;
     color:#fefeff;
 }
+
+.titlepage {
+    color: white;
+}
+
+.btn {
+    border-radius: 3rem;
+    text-transform: uppercase;
+    padding: 0.5rem 2rem; 
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: white;
+    color:  rgb(133, 132, 221); 
+    text-decoration: none;
+    border: 1px solid black;
+    margin-bottom: 100px;
+}

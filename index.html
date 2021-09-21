@@ -6,6 +6,7 @@
     <!--linguagem unicod-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" media="screen">
+    <link rel="stylesheet" href="global.css" media="screen">
     <title> Nenas food </title>
 </head>
 
@@ -21,6 +22,9 @@
             <li><a href="./pages/sale/desconto.html"> Discount for your opinion</a></li>
         </ul>
     </nav>
+    <script>
+        alert("please, for send your order, we need your information, thanks and good meal");
+    </script>
     <form>
         <p id="subtitle"> <strong> We need your information to take your order </strong></p>
         <fieldset class="group">
@@ -91,24 +95,27 @@
                 </label>
             </div>
         </fieldset>
-            <div class="field">
-                <label for="bakery"> <strong> Choose your bakery bonus </label> </strong>
-                <!--Caixa de seleção-->
-                <select id="bakery">
-                    <option selected disabled value=""> Select </option>
-                    <option> Cookie</option>
-                    <option> Cake </option>
-                    <option> Cheesecake </option>
-                    <option> Donut </option>
-                    <option> Muffin </option>
-                </select>
-            </div>
         <div class="field">
-            <label for="note"> <strong> Add a note </strong> </em></label>
+            <label for="bakery"> <strong> Choose your bakery bonus </label> </strong>
+            <!--Caixa de seleção-->
+            <select id="bakery">
+                <option selected disabled value=""> Select </option>
+                <option> Cookie</option>
+                <option> Cake </option>
+                <option> Cheesecake </option>
+                <option> Donut </option>
+                <option> Muffin </option>
+            </select>
+        </div>
+        <div class="field">
+            <label class="note"> <strong> Add a note </strong></label>
             <textarea row="6" id="note" name="note"></textarea>
         </div>
         <button class="button" type="submit" onsubmit="" required> Send your order </button>
     </form>
+    <footer>
+        <p> Aline Viana © 2021 </p>
+    </footer>
 </body>
 
 </html>

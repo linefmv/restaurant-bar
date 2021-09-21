@@ -52,7 +52,7 @@ input, select, textarea, button {
 }
 
 input {
-    font-size: 25px;
+    font-size: 22px;
     height: 0.7em;
 }
 
@@ -120,15 +120,15 @@ textarea {
     padding: 0.2em 0.6em;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     position: absolute;
-    top: 130%;
+    top: 125%;
     left: 47%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
 }
 
-/* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
+/* Elemento de classe "botao" com o estado da pseudoclasse "hover" quando passa o mouse por cima */
 .button:hover {
-    background: #bbffd5;
+    background: gold;
     box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: none;
 }

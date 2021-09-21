@@ -30,3 +30,9 @@ nav > ul li a {
     color: #FFFFFF;
     text-decoration: none;
 }
+footer {
+    margin-top:200px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: grey;
+}
